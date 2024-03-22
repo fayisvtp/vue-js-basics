@@ -2,20 +2,19 @@
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <Home userName="fayis" data="front end developer" msg="in bridgeon solution" />
-  <Home userName="alli" data="front end developer" msg="in bridgeon solution" />
-  <Home userName="abid" data="front end developer" msg="in bridgeon solution" />
-  <Home userName="shamil mon" data="BDE" msg="in bridgeon solution" />
-
+ <Interpulation/>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import Home from './components/Home.vue'
+import Interpulation from './components/Interpulation.vue'
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    Home  
+    Home,
+    Interpulation  
   }
 }
 </script>
