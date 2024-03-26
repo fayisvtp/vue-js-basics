@@ -3,18 +3,22 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <Home userName="fayis" data="front end developer" msg="in bridgeon solution" />
  <Interpulation/>
+ <methods/>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import Home from './components/Home.vue'
 import Interpulation from './components/Interpulation.vue'
+import Methods from './components/Methods.vue'
+
 export default {
   name: 'App',
   components: {
     // HelloWorld,
     Home,
-    Interpulation  
+    Interpulation,
+    Methods  
   }
 }
 </script>
