@@ -4,13 +4,22 @@
   <Home userName="fayis" data="front end developer" msg="in bridgeon solution" />
  <Interpulation/>
  <methods/>
+ <Events/>
+ <CountAppevents/>
+ <twoway-binding/>
+<inputvalue/>
 </template>
 
 <script>
+import Events from './components/Events.vue'
 // import HelloWorld from './components/HelloWorld.vue'
 import Home from './components/Home.vue'
 import Interpulation from './components/Interpulation.vue'
 import Methods from './components/Methods.vue'
+import CountAppevents from './components/CountAppevents.vue'
+import TwowayBinding from './components/TwowayBinding.vue'
+import Inputvalue from './components/InputVlue.vue'
+
 
 export default {
   name: 'App',
@@ -18,7 +27,13 @@ export default {
     // HelloWorld,
     Home,
     Interpulation,
-    Methods  
+    Methods,
+    Events  ,
+    CountAppevents,
+    TwowayBinding,
+    Inputvalue,
+
+
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <h3 style="color: blue">name : {{ getName().email }}</h3>
+  <h3 style="color: blue">name : {{ getName().names }}</h3>
   <h2 style="color: brown">Email : {{ getEmail("faty") }}</h2>
   <h2 style="color: blueviolet;">Datas:  {{ getData().email }}</h2>
 </template>
@@ -9,17 +9,18 @@ export default {
   methods: {
     getName() {
       return {
-        email: 'fayisvtp@gmail.coms'
+        names: 'fayisvtp'
       }
     },
     getEmail(name) {
       return  name ;
     },
     getData(){
+        const Obj = this.getName();
         return{
             name: "fayis",
             country :"india",
-            email :this.email
+            email :Obj.names
         }
     }
   },
