@@ -8,6 +8,9 @@
  <CountAppevents/>
  <twoway-binding/>
 <inputvalue/>
+<RadioCheckbox/>
+<Looping/>
+<Parent/>
 </template>
 
 <script>
@@ -19,6 +22,10 @@ import Methods from './components/Methods.vue'
 import CountAppevents from './components/CountAppevents.vue'
 import TwowayBinding from './components/TwowayBinding.vue'
 import Inputvalue from './components/InputVlue.vue'
+import RadioCheckbox from './components/RadioCheckbox.vue'
+import Looping from './components/Looping.vue'
+import Parent from './components/parent and child/Parent.vue'
+
 
 
 export default {
@@ -32,7 +39,10 @@ export default {
     CountAppevents,
     TwowayBinding,
     Inputvalue,
-
+    RadioCheckbox,
+    Looping,
+    Parent
+    
 
   }
 }
